@@ -14,6 +14,7 @@ module.exports = {
                 background: '#0b0c15', // Deep dark blue/black
                 surface: '#151725',
                 primary: '#3b82f6', // Bright Blue
+                secondary: '#8b5cf6', // Violet/Purple
                 accent: '#0dd3bb', // Cyan/Teal accent
             },
             fontFamily: {

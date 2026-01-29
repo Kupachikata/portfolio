@@ -57,6 +57,14 @@ const projects = [
      description: 'Lead a team of five in automating a rank management system for Lifestyle association. Implemented automation of ranking calculations.',
      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
      link: '#'
-  }
+   },
+   {
+      id: 5,
+      title: 'OK Zim App',
+      category: 'Smart Shopping & Stock Navigation',
+      description: 'A user-centric application designed to revolutionize the shopping experience. Features include real-time stock visibility across branches, navigation to store locations with available stock, and integrated smart shopping tools.',
+      image: 'https://images.unsplash.com/photo-1578916171728-46686eac8d58?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      link: '#'
+   }
 ]
 </script>
