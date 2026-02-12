@@ -9,7 +9,7 @@
           <div class="mb-8 relative pl-6 border-l-2 border-primary/30">
              <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-primary ring-4 ring-background"></div>
              <h3 class="text-xl font-semibold text-white">Intern (Development & PowerBI)</h3>
-             <p class="text-primary font-medium mb-1">OK Zimbabwe Ltd | 08/2024 - Present</p>
+             <p class="text-primary font-medium mb-1">OK Szim | August 2025 - Present</p>
              <p class="text-gray-400 text-sm mb-3">Harare, Zimbabwe</p>
              <p class="text-gray-300 leading-relaxed">
                 Currently under internship, contributing to the development of the user-facing OK Zim App, focusing on smart shopping features and stock navigation. Utilizing Power BI to design and maintain data-driven reports and dashboards for strategic business insights.

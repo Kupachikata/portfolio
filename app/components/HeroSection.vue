@@ -66,7 +66,7 @@ const roles = ['Full-Stack Developer', 'Data Analyst', 'UI/UX Enthusiast']
 const currentRole = ref('')
 const isDeleting = ref(false)
 const loopNum = ref(0)
-const typingSpeed = ref(150)
+const typingSpeed = ref(100)
 
 const type = () => {
   const i = loopNum.value % roles.length
@@ -75,18 +75,17 @@ const type = () => {
   if (isDeleting.value) {
     currentRole.value = fullText.substring(0, currentRole.value.length - 1)
   } else {
-    // Add 1 char
     currentRole.value = fullText.substring(0, currentRole.value.length + 1)
   }
 
-  let delta = 150 - Math.random() * 50 // randomize typing speed slightly
+  let delta = 150 - Math.random() * 50
 
   if (isDeleting.value) {
-    delta /= 2 // Deleting is faster
+    delta /= 2
   }
 
   if (!isDeleting.value && currentRole.value === fullText) {
-    delta = 2000 // Pause at end
+    delta = 2000
     isDeleting.value = true
   } else if (isDeleting.value && currentRole.value === '') {
     isDeleting.value = false
