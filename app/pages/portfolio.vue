@@ -13,7 +13,7 @@
           <div class="p-6">
              <h3 class="text-xl font-bold text-white mb-2">{{ project.title }}</h3>
              <p class="text-gray-400 text-sm mb-4">{{ project.category }}</p>
-             <p class="text-gray-400 text-sm line-clamp-2 mb-4">{{ project.description }}</p>
+             <p class="text-gray-400 text-sm line-clamp-5 mb-4">{{ project.description }}</p>
           </div>
        </a>
     </div>
@@ -64,6 +64,14 @@ const projects = [
       category: 'Smart Shopping & Stock Navigation',
       description: 'A user-centric application designed to revolutionize the shopping experience. Features include real-time stock visibility across branches, navigation to store locations with available stock, and integrated smart shopping tools.',
       image: 'https://images.unsplash.com/photo-1578916171728-46686eac8d58?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      link: '#'
+   },
+   {
+      id: 6,
+      title: 'Retail Decision-Support Model',
+      category: 'Capital Allocation & Stock Planning',
+      description: 'This model is a retail decision-support tool that combines break-even analysis with capital allocation. It allocates capital across product categories using turnover-adjusted gross profit (margin × turnover) so that fast-selling, profitable lines get a larger share of stock spend. It uses a Pareto 80/20 rule to recommend which products to stock and in what quantity per branch, so each store is planned from its own sales data. The aim is to improve profit, reduce cash tied up in slow-moving stock, and use shelf space and working capital more efficiently.',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       link: '#'
    }
 ]
